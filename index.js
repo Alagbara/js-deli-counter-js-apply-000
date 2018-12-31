@@ -22,7 +22,7 @@ function currentLine(line){
     return "The line is currently empty."
   }
   console.log(line)
-  if(currentLine === 0){
+  if(line.length === 0){
     return " The line is currently empty."
   }
   return currentLine
