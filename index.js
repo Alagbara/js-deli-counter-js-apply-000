@@ -6,9 +6,8 @@ function takeANumber(currentLine, newPerson){
 }
 
 function nowServing(katzDeliLine){
- return katzDeliLine;
   
-  if(nowServing > 0){
+  if(katzDeliLine > 0){
   katzDeliLine.pop()
   }
   if( nowServing = 0){
