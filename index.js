@@ -27,7 +27,7 @@ function currentLine(line){
   
   for (let i = 0; line.length > i ; i++ ) {
 
-    numbersAndNames.push(`${i + 1}.  ${line[i]}`)
+    numbersAndNames.push(`${i + 1}. ${line[i]}`)
   }
   return `The line is currently: ${numbersAndNames}.join(", ")`
 }
