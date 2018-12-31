@@ -25,7 +25,7 @@ function currentLine(line){
   
   const numbersAndNames = []
   
-  for (let i = 0, line.length>i; i++ ) {
+  for (let i = 0; line.length > i ; i++ ) {
 
     
   }
