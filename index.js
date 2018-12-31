@@ -24,7 +24,6 @@ function currentLine(line){
   }
   
   const numbersAndNames = []
-  console.log(line[0 +1])
   
   for (let i = 0; line.length > i ; i++ ) {
 
