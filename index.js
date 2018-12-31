@@ -24,10 +24,11 @@ function currentLine(line){
   }
   
   const numbersAndNames = []
+  console.log(line[0])
   
   for (let i = 0; line.length > i ; i++ ) {
 
-    
+    numbersAndNames.push(line[0])
   }
  
 }
