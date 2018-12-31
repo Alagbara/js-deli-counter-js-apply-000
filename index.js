@@ -7,7 +7,7 @@ function takeANumber(currentLine, newPerson){
 
 function nowServing(katzDeliLine){
  let katzDeliLine = "first person in line"
- return katzDeliLine
+ return katzDeliLine;
   
   if(nowServing > 0){
   katzDeliLine.pop()
